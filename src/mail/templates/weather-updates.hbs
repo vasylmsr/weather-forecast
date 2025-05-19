@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <title>{{subject}}</title>
+    <style>
+        .unsubscribe-link {
+            text-decoration:underline;
+            color:#018aed;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+        <p style="font-size:18px"><b>Weather Forecast</b></p>
+        {{{body}}}
+        
+        <br />
+        <hr style="background: #d1d1d1; border: 0; height: 2px" />
+        
+        <p style="font-size: 14px">
+            You are receiving Weather Forecast notification emails. To no longer receive these emails, 
+            <a class="unsubscribe-link" href="{{unsubscribeLink}}">unsubscribe here</a>
+        </p>
+    </div>
+  </body>
+</html>
